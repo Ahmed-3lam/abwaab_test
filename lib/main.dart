@@ -5,7 +5,7 @@ import 'package:list_api/ui/home_Screen/home_screen.dart';
 
 import 'dependencies/dependency_init.dart';
 
-void main() async {
+void main()  {
   WidgetsFlutterBinding.ensureInitialized();
   configureDependencies();
   runApp(const MyApp());
