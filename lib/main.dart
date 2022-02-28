@@ -7,9 +7,7 @@ import 'dependencies/dependency_init.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   configureDependencies();
-  await HomeCubit().getUsers();
   runApp(const MyApp());
 }
 
